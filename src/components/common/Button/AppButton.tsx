@@ -7,7 +7,7 @@ import { colors } from '../../../theme';
 interface AppButtonProps {
   title: string;
   onPress: () => void;
-  loading: boolean;
+  loading?: boolean;
   disabled?: boolean;
 }
 

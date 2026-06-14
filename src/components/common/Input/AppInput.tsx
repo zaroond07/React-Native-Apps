@@ -29,7 +29,10 @@ const AppInput = ({
             value={value}
             onChangeText={onChangeText}
             secureTextEntry={secureTextEntry}
+            placeholderTextColor={colors.textSecondary}
         />
         </View>
     );
 };
+
+export default AppInput;
